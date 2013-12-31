@@ -18,10 +18,6 @@ Or install it yourself as:
 
 ## Usage
 
-In your `application.css`, include the css file:
-
-     *= require readmorejs
-
 In your `application.js`, include the js file:
 
      //= require readmorejs
