@@ -10,7 +10,7 @@ class ReadmorejsRailsTest < ActionDispatch::IntegrationTest
   test "javascripts are available" do
     get "/assets/readmore.js"
     assert_response :success
-    get "/assets/readmore-min.js"
+    get "/assets/readmore.min.js"
     assert_response :success
   end
 

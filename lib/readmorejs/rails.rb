@@ -2,6 +2,7 @@ require "readmorejs/rails/version"
 
 module Readmorejs
   module Rails
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end
