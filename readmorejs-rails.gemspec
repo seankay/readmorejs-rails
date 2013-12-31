@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Readmorejs::Rails::VERSION
   spec.authors       = ["seankay"]
   spec.email         = ["f.sean.kay@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = "Readmore.js for Rails"
+  spec.summary       = "Gemified Readmore.js"
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -17,6 +17,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
+
+  gem.add_dependency "railties", ">= 3.2", "< 5.0"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
