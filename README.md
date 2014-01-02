@@ -20,7 +20,7 @@ Or install it yourself as:
 
 In your `application.js`, include the js file:
 
-     //= require readmorejs
+     //= require readmore
 
 See [Readmore.js](https://github.com/jedfoster/Readmore.js) for more info.
 
