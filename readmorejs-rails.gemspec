@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["f.sean.kay@gmail.com"]
   spec.description   = "Readmore.js for Rails"
   spec.summary       = "Gemified Readmore.js"
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/seankay/readmorejs-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
